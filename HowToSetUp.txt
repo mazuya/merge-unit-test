@@ -1,0 +1,27 @@
+Thunpitcha Rattantamjaroen
+
+########################
+
+setup dependency and execute code and unit test
+
+########################
+
+1. create project folder + install node
+
+mkdir my-typescript-project
+cd my-typescript-project
+npm init -y
+npm install --save-dev typescript
+
+2. create config files (ts config, jest, babel config)
+3. create /src folder
+4. install package for testing, jest
+npm install --save-dev jest @types/jest jest-extended
+5. config scripts in package.json for using npm test
+"scripts": {
+  "test": "jest",
+}
+6.write logic named 'merge.ts' and test file 'merge.test.ts'
+
+7. run test by using 'npm test'
+
